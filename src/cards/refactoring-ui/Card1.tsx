@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Text, SimpleGrid, Flex, Button, Stack } from "@chakra-ui/core";
+import { Box, Text, SimpleGrid, Flex, Button, Stack } from "@chakra-ui/react";
 import { FiStar } from "react-icons/fi";
 
 const CardBottom: React.FC = () => (
@@ -37,7 +37,7 @@ const CardBottom: React.FC = () => (
       size="lg"
       borderRadius="lg"
       _hover={{
-        bg: "blue.500"
+        bg: "blue.500",
       }}
     >
       Book Now

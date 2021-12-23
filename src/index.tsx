@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { baseTheme } from "./baseTheme";
-import { ThemeProvider } from "@chakra-ui/core";
+import { ThemeProvider } from "@chakra-ui/react";
 require("typeface-raleway");
 
 ReactDOM.render(

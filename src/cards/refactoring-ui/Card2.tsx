@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, SimpleGrid, Text, Flex, Image } from "@chakra-ui/core";
+import { Box, SimpleGrid, Text, Flex, Image } from "@chakra-ui/react";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 export const Card2 = () => {

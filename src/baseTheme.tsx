@@ -1,18 +1,18 @@
-import { theme } from "@chakra-ui/core";
+import { theme, extendTheme } from "@chakra-ui/react";
 
 export const baseTheme = {
   ...theme,
   fonts: {
     ...theme.fonts,
-    sans: `'Raleway', "Source Sans Pro", sans-serif`
+    sans: `'Raleway', "Source Sans Pro", sans-serif`,
   },
   radii: {
     ...theme.radii,
-    xl: ".75rem"
+    xl: ".75rem",
   },
   borders: {
     ...theme.borders,
     "5px": "5px solid",
-    "6px": "6px solid"
-  }
+    "6px": "6px solid",
+  },
 } as const;
